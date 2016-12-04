@@ -403,6 +403,8 @@ KBUILD_CFLAGS   := -Werror -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -fno-strict-aliasing -fno-common \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
+		   -march=armv8-a -Wno-maybe-uninitialized -Wno-unused-const-variable -Wno-return-local-addr \
+		   -Wno-misleading-indentation -Wno-discarded-array-qualifiers -Wno-bool-compare \
 		   -std=gnu89
 
 KBUILD_AFLAGS_KERNEL :=
