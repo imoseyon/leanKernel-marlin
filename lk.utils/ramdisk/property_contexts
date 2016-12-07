@@ -108,5 +108,6 @@ radio.                     u:object_r:radio_prop:s0
 rcs.publish.status         u:object_r:radio_prop:s0
 ro.boot.hardware.sku       u:object_r:hw_sku_prop:s0
 ro.boot.mid                u:object_r:mid_prop:s0
+debug.ssrdump              u:object_r:ssr_prop:s0
 #line 1 "out/target/product/marlin/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl"
 
